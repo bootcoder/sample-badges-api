@@ -5,4 +5,9 @@ class TeachersController < ApplicationController
     render json: @teachers
   end
 
+  def show
+    @teacher = Teacher.find(params[:id])
+    render json: @teacher.badges
+  end
+
 end

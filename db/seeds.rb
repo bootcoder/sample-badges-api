@@ -16,4 +16,8 @@ Teacher.create(name: "Walker")
 Teacher.create(name: "Julian")
 Teacher.create(name: "Jaclyn")
 Teacher.create(name: "Jen")
-Teacher.create(name: "Sherif")
+sherif = Teacher.create(name: "Sherif")
+
+
+sherif.badges.create(phrase: "It's just Syntax people.")
+sherif.badges.create(phrase: "STOP trying to make this shit harder than it really is!")
