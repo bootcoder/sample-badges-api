@@ -6,6 +6,8 @@ gem 'rails', '4.2.6'
 
 gem 'rails-api'
 
+gem 'rack-cors'
+
 gem 'spring', :group => :development
 
 
